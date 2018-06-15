@@ -1,0 +1,153 @@
+
+html,
+       body {
+           width: 100%;
+           height: 100%;
+       }
+
+.body {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+ul {
+    background-color: #fff;
+    text-align: right;
+    text-decoration: none;
+  }
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial;
+}
+
+li.grid {
+  height:35px;
+  padding: 12px;
+  background: url('https://user-images.githubusercontent.com/29627150/41441473-ff4d9392-7032-11e8-83ba-01bcdf9d9199.png') no-repeat 50% 5px;
+}
+
+li.bell {
+  height:35px;
+  padding-right: 40px;
+  background: url('https://user-images.githubusercontent.com/29627150/41441479-04cf2f2e-7033-11e8-9511-ec4da7fb847b.png') no-repeat 50% 6px;
+}
+
+li.gplus {
+  height:35px;
+  padding: 25px 0px 0px 43px;
+  background: url('https://user-images.githubusercontent.com/29627150/41441477-02597a24-7033-11e8-89de-02f8a7b1d950.png') no-repeat 50% 12px;
+}
+
+.logo {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 150px;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    margin: 8px 10px;
+    background-color: #f2f2f2;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    padding: 8px 15px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #757575;
+    box-sizing: border-box;
+}
+
+
+
+#country {
+	position: absolute;
+	bottom: 40px;
+	height: 40px;
+	width: 100%;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+#country p {
+	color: #757575;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  margin-left: 27px;
+  margin-top: 9px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  height: 40px;
+  width: 100%;
+  background: #f2f2f2;
+  }
+
+  .fmenu-left {
+    background-color: #ccc;
+  }
+
+  .fmenu-left li {
+    float: left;
+    margin: 20px 30px 0px 0px;
+    text-align: right;
+  }
+
+  .fmenu-left ul {
+    list-style-type: none;
+    margin: 0px 0px -5px 25px;
+    padding: 0;
+  }
+
+  .fmenu-left li a {
+  color: #666;
+  font-size: small;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-weight:400;
+  }
+
+  .fmenu-right {
+    background-color: #ccc;
+  }
+
+.fmenu-right li {
+    float: right;
+    margin: 20px 30px 0px 0px;
+    text-align: right;
+}
+
+.fmenu-right ul {
+    list-style-type: none;
+    margin: 0px 30px 0px 0px;;
+    padding: 0;
+}
+
+.fmenu-right li a {
+  color: #666;
+  font-size: small;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-weight:400;
+}
